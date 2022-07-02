@@ -1,0 +1,56 @@
+p {
+    color: rgb(129, 126, 126);
+    text-decoration: none;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#letra {
+    color: #585350;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+    background: rgb(59, 103, 158);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b679e', endColorstr='#7db9e8', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer-p {
+    color: #000000;
+}
+
+.main-img {
+    width: 350px;
+    height: 200px;
+}
+
+a:hover {
+    color: red !important;
+}
+
+.carousel-item>img{
+    width: 500px;
+    height: 350px;   
+}
+
+.formulario {
+    padding: 20px 100px;
+}
+
+#titulos {
+    color: #000000;
+    text-decoration: none;
+}
