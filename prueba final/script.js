@@ -33,12 +33,19 @@ function validar() {
         return false;
     }
     if (patente.length < 5) {
-        alert("Debe ingresar patente en formato de 6 digitos" + txt_nombre);
+        alert("Debe ingresar patente en formato de 6 digitos");
         document.formulario.txt_patente.focus();
         return false;
     }
-    alert("Datos enviados correctamente");
-    //Si todo esta correcto se enviarían los datos a un back-end
+    alert(  "Datos enviados correctamente \n" +
+            "Nombre: " + nombre + "\n" +
+            "Apellido: " + apellido + "\n" +
+            "Rut: " + rut + "\n" +
+            "Telefono: " + telefono + "\n" +
+            "Correo: " + correo + "\n" +
+            "Marca: " + marca + "\n" +
+            "Modelo: " + modelo + "\n" +
+            "Patente: " + patente + "\n");
     document.formulario.submit() = true;
 }
 
